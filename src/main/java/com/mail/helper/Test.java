@@ -22,7 +22,7 @@ public class Test
 	public static void main(String[] args) throws Exception {	
 		//new Test().launch();
 		
-		System.out.println();
+		
 		//Fresh question 1
 		/*String input = "CamelCaseValue";
 		String value = "";
