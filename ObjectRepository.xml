@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nbaApp>
+<home>
+<homePageID>com.nbadigital.gametimelite.dev:id/hub_home_recycler</homePageID>
+<homePageXpath>//android.support.v7.widget.RecyclerView[contains(@resource-id,'id/hub_home_recycler')]</homePageXpath>
+<t1SpotLight>//android.view.ViewGroup[contains(@resource-id,'id/ahs_layout_spotlight_one')]</t1SpotLight>
+</home>
+
+<scores>
+</scores>
+
+<videos>
+</videos>
+
+<standings>
+</standings>
+</nbaApp>

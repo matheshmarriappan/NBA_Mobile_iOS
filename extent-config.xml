@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>dark</theme>
+
+		<documentTitle>NBA Automation Report</documentTitle>
+		<reportName>Automation Report</reportName>
+		<reportHeadline>-- Smoke Test </reportHeadline>
+		<styles>
+      <![CDATA[
+      .categoryOS {
+      	background-color: #66bb6a;
+      	 border-radius: 3px; 
+      	 color: #fff; 
+      	 font-size: 12px; 
+      	 margin-right: 3px; 
+      	 padding: 2px 4px; 
+      	 font-family: Roboto, Nunito, 'Source Sans Pro', Arial;
+      	 font-weight: 400;
+      	 line-height: 1.5;
+       }
+       
+       .categoryBrowser {
+      	background-color: #66bb6a;
+      	 border-radius: 3px; 
+      	 color: #fff; 
+      	 font-size: 12px; 
+      	 margin-right: 3px; 
+      	 padding: 2px 4px; 
+      	 font-family: Roboto, Nunito, 'Source Sans Pro', Arial;
+      	 font-weight: 400;
+      	 line-height: 1.5;
+       }
+       
+       .categoryheightwidth {
+      	background-color: #66bb6a;
+      	 border-radius: 3px; 
+      	 color: #fff; 
+      	 font-size: 12px; 
+      	 margin-right: 3px; 
+      	 padding: 2px 4px; 
+      	 font-family: Roboto, Nunito, 'Source Sans Pro', Arial;
+      	 font-weight: 400;
+      	 line-height: 1.5;
+       }
+       
+       .categoryEnvironment {
+      	background-color: #66bb6a;
+      	 border-radius: 3px; 
+      	 color: #fff; 
+      	 font-size: 12px; 
+      	 margin-right: 3px; 
+      	 padding: 2px 4px; 
+      	 font-family: Roboto, Nunito, 'Source Sans Pro', Arial;
+      	 font-weight: 400;
+      	 line-height: 1.5;
+       }
+      
+      ]]>
+	</styles>
+	</configuration>
+
+	
+
+</extentreports>
