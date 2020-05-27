@@ -1,1 +1,1 @@
-/Users/soe-admin/Documents/NBA_July9_iOS_Automation/NBARegressionBDDLocal//custom_report//Report_20190915_1030//NBA_Report.html
+/Users/hcl/Downloads/NBA Automation/NBARegressionBDDLocal//custom_report//Report_20200306_0354//NBA_Report.html

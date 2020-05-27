@@ -1,5 +1,5 @@
 Feature: NBA App Installation and test the Onboarding features - Test Rail Test Case ID - From C114906 to C114926 
-
+@RunTest
 Scenario: Verify NBA Loading screen, External links available and Accept button 
 	Then Verify "NbaLoadingScreenID" is displayed 
     Then Wait for Page To Load
@@ -19,7 +19,7 @@ Scenario: Verify NBA Loading screen, External links available and Accept button
 	Then Click on "AcceptButtonID" 
 	Then Verify "NBALeaguePassLandingScreen" is displayed
 	
-
+@RunTest
 Scenario: Test
     Then Verify "NBALeaguePassLandingScreen" is displayed 
 	When Click on "ViewPackages_ID"
@@ -61,14 +61,14 @@ Scenario: Test
     And Wait for Page To Load  
     And Verify "FollowYourTeamsScreen" is displayed
     	
-	
+@RunTest
 Scenario: Verify Follow Your Teams Screen 
 	When User is on "FollowYourTeamsScreen"
 	Then Click on "AtlantaHawksID"
     Then Click on "ChicagoBullsID"
 	And Click on "NextButtonnID"  
 	
-		
+@RunTest
 Scenario: All Notifications Page - TR (C115061-C115066) 
 	When User is on "AllNotificationsPage"  
 	Then Verify "NBABreakingNewsID" is displayed
@@ -84,7 +84,7 @@ Scenario: All Notifications Page - TR (C115061-C115066)
 	And Verify the toggle actions for the team "ATLANTA HAWKS"	
     And Click on "DoneButtonID"  
 	
-	
+@RunTest
 Scenario: Verify Navigation Bar - TR C114927 
 	When User is on "NavigationBar" 
 	Then Verify "HomePageID" is displayed

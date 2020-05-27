@@ -1,5 +1,5 @@
 Feature: NBA League Pass Sign in Validation
-
+@RunTest
 Scenario: Verify Top Stories
 	When User is on "More" Page
 	Then  Verify "TopStories" is displayed

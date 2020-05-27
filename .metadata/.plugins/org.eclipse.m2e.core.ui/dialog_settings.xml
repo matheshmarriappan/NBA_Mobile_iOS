@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/hcl/Downloads/NBA Automation/NBARegressionBDDLocal"/>
 			<item value="/Users/soe-admin/Documents/NBA_July9_iOS_Automation"/>
 		</list>
 		<list key="projectNameTemplate">

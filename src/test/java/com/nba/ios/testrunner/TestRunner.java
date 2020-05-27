@@ -26,7 +26,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = {"features//Players.feature","features//Teams.feature"},
+//features = {"features//Players.feature","features//Settings.feature"},
+features = {"features//Home.feature"},
 glue= {"com/nba/ios/seleniumgluecode"},
 monochrome = true,
 plugin = {"com.cucumber.listener.ExtentCucumberFormatter:"},

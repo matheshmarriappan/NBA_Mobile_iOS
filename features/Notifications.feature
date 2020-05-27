@@ -1,5 +1,6 @@
 Feature: Notification Test Cases TR : C228586 to TR C228590
 
+@RunTest
 Scenario: Verify Videos Session on Top
 	When User is on "HomePageID"
 	Then Click on "MoreButtonID"
